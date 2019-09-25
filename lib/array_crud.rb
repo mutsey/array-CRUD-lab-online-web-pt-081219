@@ -45,12 +45,16 @@ puts pug
 end
 
 def retrieve_element_from_index(array, index_number)
-   puppies= ["pug","lab","daschound","dogo_argentino"]
+   puppies= ["pug","lab","daschound"]
  
-puppies.unshift("pug")
+puppies[1]
+#  └── "pug"
  
-puts puppies.inspect
-# > ["pug","lab","daschound","dogo_argentino"]
+puppies[2]
+#  └── "lab"
+ 
+puppies[3]
+#  └── "daschound"
 end
 
 def retrieve_first_element_from_array(array)

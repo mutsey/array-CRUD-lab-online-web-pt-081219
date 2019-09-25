@@ -40,7 +40,8 @@ pug=puppies.shift
  
 puts puppies.inspect
 # > ["lab","daschound","dogo_argentino"]
-
+puts "pug"
+#> 
 end
 
 def retrieve_element_from_index(array, index_number)

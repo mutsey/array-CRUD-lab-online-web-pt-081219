@@ -36,7 +36,7 @@ end
 def remove_element_from_start_of_array(array)
    puppies= ["pug","lab","daschound","dogo_argentino"]
  
-puppies.unshift("pug")
+
  
 puts puppies.inspect
 # > ["pug","lab","daschound","dogo_argentino"]

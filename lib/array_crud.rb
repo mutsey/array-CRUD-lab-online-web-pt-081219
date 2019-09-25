@@ -60,10 +60,10 @@ end
 def retrieve_first_element_from_array(array)
    puppies= ["pug","lab","daschound","dogo_argentino"]
  
-puppies.unshift("pug")
+puppies.unshift("dogo_argentino")
  
-puts puppies.inspect
-# > ["pug","lab","daschound","dogo_argentino"]
+puts dogo_argentino
+
 end
 
 def retrieve_last_element_from_array(array)
